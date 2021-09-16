@@ -23,7 +23,7 @@
   "gnetId": 9746,
   "graphTooltip": 1,
   "id": 8,
-  "iteration": 1631780416147,
+  "iteration": 1631781785670,
   "links": [],
   "panels": [
     {
@@ -67,8 +67,8 @@
           }
         ],
         "executionErrorState": "alerting",
-        "for": "5m",
-        "frequency": "1m",
+        "for": "10s",
+        "frequency": "10s",
         "handler": 1,
         "message": "ALERT\nElasticSearch is down",
         "name": "Cluster Status alert",
@@ -2307,5 +2307,5 @@
   "timezone": "utc",
   "title": "ElasticSearch",
   "uid": "1Lnrv-Snk",
-  "version": 5
+  "version": 6
 }
